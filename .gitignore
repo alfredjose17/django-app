@@ -1,0 +1,61 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Django ---
+db.sqlite3
+db.sqlite3-journal
+media/
+# Only ignore static if you want to collect it on the server
+# static/ 
+
+# --- JetBrains (PyCharm) ---
+.idea/
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- MacOS / OS ---
+.DS_Store
+Thumbs.db
+
+# --- Distribution / Packaging ---
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Unit test / Coverage reports ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+*/migrations/
+*/__init__.py
